@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB6619061A9618D70061EB52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6619051A9618D70061EB52 /* main.m */; };
+		F22E59461A963F860038E823 /* News+notEsporte.m in Sources */ = {isa = PBXBuildFile; fileRef = F22E59451A963F860038E823 /* News+notEsporte.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		DB66190C1A9619A20061EB52 /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
 		DB66190D1A961BD00061EB52 /* Update.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Update.h; sourceTree = "<group>"; };
 		DB66190E1A961C9F0061EB52 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		F22E59441A963F860038E823 /* News+notEsporte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "News+notEsporte.h"; sourceTree = "<group>"; };
+		F22E59451A963F860038E823 /* News+notEsporte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "News+notEsporte.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				DB66190C1A9619A20061EB52 /* Feed.h */,
 				DB66190D1A961BD00061EB52 /* Update.h */,
 				DB66190E1A961C9F0061EB52 /* Menu.h */,
+				F22E59441A963F860038E823 /* News+notEsporte.h */,
+				F22E59451A963F860038E823 /* News+notEsporte.m */,
 			);
 			path = "ObjC-01";
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6619061A9618D70061EB52 /* main.m in Sources */,
+				F22E59461A963F860038E823 /* News+notEsporte.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +244,7 @@
 				DB66190B1A9618D80061EB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
