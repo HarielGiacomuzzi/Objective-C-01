@@ -12,7 +12,12 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+<<<<<<< HEAD
         NSLog(@"Teste: %@ ", [Update requestUpdate][0]);
+=======
+        // insert code here...
+        NSLog(@"Hello, Planet!");
+>>>>>>> origin/master
     }
     return 0;
 }

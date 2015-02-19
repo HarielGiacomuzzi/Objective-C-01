@@ -21,10 +21,15 @@
 @property NSMutableArray* arryNews;
 
 
+<<<<<<< HEAD
 - (void) shareNews : (News *) sharedNews
                    : (NSString *) socialNetworkName;
 - (NSMutableArray *) getNewsArray;
 - (News *) getNews;
+=======
+- (void) shareNews : (News *) sharedNews;
+
+>>>>>>> origin/master
 
 @end
 
