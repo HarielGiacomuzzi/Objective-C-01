@@ -14,7 +14,7 @@
 {
     
 }
-
+//testestes
 @property (nonatomic)News  *NewsShared;
 @property (nonatomic)NSString *tipoCompartilhamento;
 
