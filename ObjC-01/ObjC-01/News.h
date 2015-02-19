@@ -19,20 +19,15 @@
 @property NSString* title;
 @property NSString* shortDescription;
 @property NSString* description;
-<<<<<<< Updated upstream
 @property NSMutableArray* arryNews;
 
 
-<<<<<<< HEAD
 - (void) shareNews : (News *) sharedNews
                    : (NSString *) socialNetworkName;
 - (NSMutableArray *) getNewsArray;
 - (News *) getNews;
-=======
 - (void) shareNews : (News *) sharedNews;
 
->>>>>>> origin/master
-=======
 @property NSMutableArray* arrayNews;
 @property short tipoNoticia;
 
@@ -40,7 +35,6 @@
                    : (NSString *) socialNetworkName;
 - (NSMutableArray *) getNewsArray;
 - (News *) getNews;
->>>>>>> Stashed changes
 
 @end
 
