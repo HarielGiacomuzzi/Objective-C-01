@@ -8,6 +8,24 @@
 
 #import "News.h"
 
-@implementation NSObject (News)
+@implementation News
+
+-(void) shareNews : (News *) sharedNews
+                  : (NSString *) socialNetworkName
+{
+    Share *sharingNews = [[Share alloc]init];
+    [sharingNews setNews:sharedNews];
+    [sharingNews setSocialNetwork];
+}
+
+- (NSMutableArray *) getNewsArray
+{
+    Feed *newsFeed = [[Feed alloc]init];
+    return newsFeed.getArray;
+}
+- (News *) getNews
+{
+    return self;
+}
 
 @end

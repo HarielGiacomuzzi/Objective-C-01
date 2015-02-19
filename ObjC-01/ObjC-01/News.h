@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Feed.h"
 
 @interface News : NSObject
 {
@@ -18,6 +19,7 @@
 @property NSString* title;
 @property NSString* shortDescription;
 @property NSString* description;
+<<<<<<< Updated upstream
 @property NSMutableArray* arryNews;
 
 
@@ -30,6 +32,15 @@
 - (void) shareNews : (News *) sharedNews;
 
 >>>>>>> origin/master
+=======
+@property NSMutableArray* arrayNews;
+@property short tipoNoticia;
+
+- (void) shareNews : (News *) sharedNews
+                   : (NSString *) socialNetworkName;
+- (NSMutableArray *) getNewsArray;
+- (News *) getNews;
+>>>>>>> Stashed changes
 
 @end
 

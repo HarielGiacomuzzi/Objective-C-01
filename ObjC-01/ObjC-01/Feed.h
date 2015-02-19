@@ -7,14 +7,27 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "News.h"
+#import "Update.h"
+#import "Login.h"
 
 @interface Feed : NSObject
 {
-    NSMutableArray news;
 }
+@property NSMutableArray* arrayNews;
+@property Update* up;
+@property Login* userLogin;
 
+- (NSMutableArray *) showNewsList;
+- (News *) showNews : (short) newsType;
+- (BOOL) verifyLogin;
+- (void) callMenu;
 
+<<<<<<< Updated upstream
 
 
 @end
 
+=======
+@end
+>>>>>>> Stashed changes
