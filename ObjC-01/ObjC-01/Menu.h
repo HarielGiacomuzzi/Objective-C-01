@@ -17,6 +17,8 @@
 +(void)filterNews:(short)tipo;
 +(void)callFeedback;
 
+//coment
+
 @end
 
 
