@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		DB4B53F61A9660390025A3CA /* Compartilhamento.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53EB1A9660390025A3CA /* Compartilhamento.m */; };
 		DB4B53F71A9660390025A3CA /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53EC1A9660390025A3CA /* Feed.m */; };
 		DB4B53F81A9660390025A3CA /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53EF1A9660390025A3CA /* News.m */; };
 		DB4B53F91A9660390025A3CA /* News+notEsporte.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53F11A9660390025A3CA /* News+notEsporte.m */; };
 		DB4B53FA1A9660390025A3CA /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53F51A9660390025A3CA /* XMLParser.m */; };
+=======
+		B53B6FB41A96616400A66DF4 /* Compartilhamento.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B6FA91A96616400A66DF4 /* Compartilhamento.m */; };
+		B53B6FB51A96616400A66DF4 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B6FAA1A96616400A66DF4 /* Feed.m */; };
+		B53B6FB61A96616400A66DF4 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B6FAD1A96616400A66DF4 /* News.m */; };
+		B53B6FB71A96616400A66DF4 /* News+notEsporte.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B6FAF1A96616400A66DF4 /* News+notEsporte.m */; };
+		B53B6FB81A96616400A66DF4 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B6FB31A96616400A66DF4 /* XMLParser.m */; };
+>>>>>>> origin/master
 		DB6619061A9618D70061EB52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6619051A9618D70061EB52 /* main.m */; };
 		DB6619101A9634E50061EB52 /* Update.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66190F1A9634E50061EB52 /* Update.m */; };
 /* End PBXBuildFile section */
@@ -29,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		DB4B53EA1A9660390025A3CA /* Compartilhamento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compartilhamento.h; sourceTree = "<group>"; };
 		DB4B53EB1A9660390025A3CA /* Compartilhamento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compartilhamento.m; sourceTree = "<group>"; };
 		DB4B53EC1A9660390025A3CA /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
@@ -41,6 +50,20 @@
 		DB4B53F31A9660390025A3CA /* teste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teste.h; sourceTree = "<group>"; };
 		DB4B53F41A9660390025A3CA /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
 		DB4B53F51A9660390025A3CA /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+=======
+		B53B6FA81A96616400A66DF4 /* Compartilhamento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compartilhamento.h; sourceTree = "<group>"; };
+		B53B6FA91A96616400A66DF4 /* Compartilhamento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compartilhamento.m; sourceTree = "<group>"; };
+		B53B6FAA1A96616400A66DF4 /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		B53B6FAB1A96616400A66DF4 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		B53B6FAC1A96616400A66DF4 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		B53B6FAD1A96616400A66DF4 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		B53B6FAE1A96616400A66DF4 /* News+notEsporte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "News+notEsporte.h"; sourceTree = "<group>"; };
+		B53B6FAF1A96616400A66DF4 /* News+notEsporte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "News+notEsporte.m"; sourceTree = "<group>"; };
+		B53B6FB01A96616400A66DF4 /* notEsporte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notEsporte.h; sourceTree = "<group>"; };
+		B53B6FB11A96616400A66DF4 /* teste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teste.h; sourceTree = "<group>"; };
+		B53B6FB21A96616400A66DF4 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		B53B6FB31A96616400A66DF4 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+>>>>>>> origin/master
 		DB6619021A9618D70061EB52 /* ObjC-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjC-01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6619051A9618D70061EB52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB66190C1A9619A20061EB52 /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
@@ -79,6 +102,7 @@
 		DB6619041A9618D70061EB52 /* ObjC-01 */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				DB4B53EA1A9660390025A3CA /* Compartilhamento.h */,
 				DB4B53EB1A9660390025A3CA /* Compartilhamento.m */,
 				DB4B53EC1A9660390025A3CA /* Feed.m */,
@@ -91,6 +115,20 @@
 				DB4B53F31A9660390025A3CA /* teste.h */,
 				DB4B53F41A9660390025A3CA /* XMLParser.h */,
 				DB4B53F51A9660390025A3CA /* XMLParser.m */,
+=======
+				B53B6FA81A96616400A66DF4 /* Compartilhamento.h */,
+				B53B6FA91A96616400A66DF4 /* Compartilhamento.m */,
+				B53B6FAA1A96616400A66DF4 /* Feed.m */,
+				B53B6FAB1A96616400A66DF4 /* Header.h */,
+				B53B6FAC1A96616400A66DF4 /* News.h */,
+				B53B6FAD1A96616400A66DF4 /* News.m */,
+				B53B6FAE1A96616400A66DF4 /* News+notEsporte.h */,
+				B53B6FAF1A96616400A66DF4 /* News+notEsporte.m */,
+				B53B6FB01A96616400A66DF4 /* notEsporte.h */,
+				B53B6FB11A96616400A66DF4 /* teste.h */,
+				B53B6FB21A96616400A66DF4 /* XMLParser.h */,
+				B53B6FB31A96616400A66DF4 /* XMLParser.m */,
+>>>>>>> origin/master
 				DB6619051A9618D70061EB52 /* main.m */,
 				DB66190C1A9619A20061EB52 /* Feed.h */,
 				DB66190D1A961BD00061EB52 /* Update.h */,
@@ -156,11 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				DB4B53FA1A9660390025A3CA /* XMLParser.m in Sources */,
 				DB4B53F81A9660390025A3CA /* News.m in Sources */,
 				DB4B53F61A9660390025A3CA /* Compartilhamento.m in Sources */,
 				DB4B53F71A9660390025A3CA /* Feed.m in Sources */,
 				DB4B53F91A9660390025A3CA /* News+notEsporte.m in Sources */,
+=======
+				B53B6FB81A96616400A66DF4 /* XMLParser.m in Sources */,
+				B53B6FB61A96616400A66DF4 /* News.m in Sources */,
+				B53B6FB41A96616400A66DF4 /* Compartilhamento.m in Sources */,
+				B53B6FB51A96616400A66DF4 /* Feed.m in Sources */,
+				B53B6FB71A96616400A66DF4 /* News+notEsporte.m in Sources */,
+>>>>>>> origin/master
 				DB6619101A9634E50061EB52 /* Update.m in Sources */,
 				DB6619061A9618D70061EB52 /* main.m in Sources */,
 			);
