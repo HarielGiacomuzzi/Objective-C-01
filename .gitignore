@@ -7,8 +7,22 @@ ObjC-01/ObjC-01.xcodeproj/project.xcworkspace/xcuserdata/brunork.xcuserdatad/Use
 
 *.xcuserstate
 
+<<<<<<< HEAD
 ObjC-01/.DS_Store
 
 *.xcuserstate
 
 *.pbxproj
+=======
+*.pbxproj
+
+*.xcuserstate
+
+ObjC-01/ObjC-01/.DS_Store
+
+*.xcuserstate
+>>>>>>> origin/master
+
+ObjC-01/ObjC-01/.DS_Store
+
+ObjC-01/ObjC-01/.DS_Store
