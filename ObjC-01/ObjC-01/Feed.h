@@ -23,11 +23,6 @@
 - (BOOL) verifyLogin;
 - (void) callMenu;
 
-<<<<<<< Updated upstream
-
 
 @end
 
-=======
-@end
->>>>>>> Stashed changes
