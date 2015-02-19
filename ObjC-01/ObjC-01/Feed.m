@@ -12,7 +12,7 @@
 
 - (NSMutableArray *) showNewsList
 {
-    //terminal
+    //
 }
 - (News *) showNews : (short) newsType
 {
