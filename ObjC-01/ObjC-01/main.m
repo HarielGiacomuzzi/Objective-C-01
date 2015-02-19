@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Update.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"Teste: %@ ", [Update requestUpdate][0]);
     }
     return 0;
 }

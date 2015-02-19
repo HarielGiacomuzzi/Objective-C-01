@@ -1,19 +1,13 @@
 //
-//  Menu.h
+//  NSObject+XMLParser.m
 //  ObjC-01
 //
 //  Created by Hariel Giacomuzzi on 2/19/15.
 //  Copyright (c) 2015 Hariel Giacomuzzi. All rights reserved.
 //
 
-@interface Menu : NSObject
-{
+#import "NSObject+XMLParser.h"
 
-}
-
-+(void)filterNews:(short)tipo;
-+(void)callFeedback;
-
+@implementation NSObject (XMLParser)
 
 @end
-
