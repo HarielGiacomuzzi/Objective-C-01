@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< Updated upstream
-		B57F4B511A963E1A00327577 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = B57F4B501A963E1A00327577 /* News.m */; };
-		B57F4B531A964F3100327577 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = B57F4B521A964F3100327577 /* Feed.m */; };
-=======
->>>>>>> Stashed changes
+		DB4B53F61A9660390025A3CA /* Compartilhamento.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53EB1A9660390025A3CA /* Compartilhamento.m */; };
+		DB4B53F71A9660390025A3CA /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53EC1A9660390025A3CA /* Feed.m */; };
+		DB4B53F81A9660390025A3CA /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53EF1A9660390025A3CA /* News.m */; };
+		DB4B53F91A9660390025A3CA /* News+notEsporte.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53F11A9660390025A3CA /* News+notEsporte.m */; };
+		DB4B53FA1A9660390025A3CA /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B53F51A9660390025A3CA /* XMLParser.m */; };
 		DB6619061A9618D70061EB52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6619051A9618D70061EB52 /* main.m */; };
 		DB6619101A9634E50061EB52 /* Update.m in Sources */ = {isa = PBXBuildFile; fileRef = DB66190F1A9634E50061EB52 /* Update.m */; };
 /* End PBXBuildFile section */
@@ -29,12 +29,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-<<<<<<< Updated upstream
-		B57F4B4F1A96343900327577 /* News.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
-		B57F4B501A963E1A00327577 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
-		B57F4B521A964F3100327577 /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
-=======
->>>>>>> Stashed changes
+		DB4B53EA1A9660390025A3CA /* Compartilhamento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compartilhamento.h; sourceTree = "<group>"; };
+		DB4B53EB1A9660390025A3CA /* Compartilhamento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compartilhamento.m; sourceTree = "<group>"; };
+		DB4B53EC1A9660390025A3CA /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		DB4B53ED1A9660390025A3CA /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DB4B53EE1A9660390025A3CA /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		DB4B53EF1A9660390025A3CA /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		DB4B53F01A9660390025A3CA /* News+notEsporte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "News+notEsporte.h"; sourceTree = "<group>"; };
+		DB4B53F11A9660390025A3CA /* News+notEsporte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "News+notEsporte.m"; sourceTree = "<group>"; };
+		DB4B53F21A9660390025A3CA /* notEsporte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notEsporte.h; sourceTree = "<group>"; };
+		DB4B53F31A9660390025A3CA /* teste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teste.h; sourceTree = "<group>"; };
+		DB4B53F41A9660390025A3CA /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		DB4B53F51A9660390025A3CA /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 		DB6619021A9618D70061EB52 /* ObjC-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjC-01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6619051A9618D70061EB52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB66190C1A9619A20061EB52 /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
@@ -73,24 +79,23 @@
 		DB6619041A9618D70061EB52 /* ObjC-01 */ = {
 			isa = PBXGroup;
 			children = (
+				DB4B53EA1A9660390025A3CA /* Compartilhamento.h */,
+				DB4B53EB1A9660390025A3CA /* Compartilhamento.m */,
+				DB4B53EC1A9660390025A3CA /* Feed.m */,
+				DB4B53ED1A9660390025A3CA /* Header.h */,
+				DB4B53EE1A9660390025A3CA /* News.h */,
+				DB4B53EF1A9660390025A3CA /* News.m */,
+				DB4B53F01A9660390025A3CA /* News+notEsporte.h */,
+				DB4B53F11A9660390025A3CA /* News+notEsporte.m */,
+				DB4B53F21A9660390025A3CA /* notEsporte.h */,
+				DB4B53F31A9660390025A3CA /* teste.h */,
+				DB4B53F41A9660390025A3CA /* XMLParser.h */,
+				DB4B53F51A9660390025A3CA /* XMLParser.m */,
 				DB6619051A9618D70061EB52 /* main.m */,
 				DB66190C1A9619A20061EB52 /* Feed.h */,
 				DB66190D1A961BD00061EB52 /* Update.h */,
 				DB66190E1A961C9F0061EB52 /* Menu.h */,
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-				F22E59441A963F860038E823 /* News+notEsporte.h */,
-				F22E59451A963F860038E823 /* News+notEsporte.m */,
-=======
-				B57F4B501A963E1A00327577 /* News.m */,
-<<<<<<< Updated upstream
->>>>>>> 9e310ee7f7a28662620f514bdb3c3a4e570c345f
-=======
-				B57F4B521A964F3100327577 /* Feed.m */,
->>>>>>> Stashed changes
-=======
 				DB66190F1A9634E50061EB52 /* Update.m */,
->>>>>>> Stashed changes
 			);
 			path = "ObjC-01";
 			sourceTree = "<group>";
@@ -151,25 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-				DB66191E1A965D230061EB52 /* XMLParser.m in Sources */,
-				DB66191C1A965D230061EB52 /* News.m in Sources */,
-				DB6619061A9618D70061EB52 /* main.m in Sources */,
-				DB66191D1A965D230061EB52 /* Update.m in Sources */,
-=======
-=======
-				B57F4B531A964F3100327577 /* Feed.m in Sources */,
->>>>>>> Stashed changes
-				B57F4B511A963E1A00327577 /* News.m in Sources */,
-				DB6619061A9618D70061EB52 /* main.m in Sources */,
-				F22E59461A963F860038E823 /* News+notEsporte.m in Sources */,
->>>>>>> origin/master
-=======
+				DB4B53FA1A9660390025A3CA /* XMLParser.m in Sources */,
+				DB4B53F81A9660390025A3CA /* News.m in Sources */,
+				DB4B53F61A9660390025A3CA /* Compartilhamento.m in Sources */,
+				DB4B53F71A9660390025A3CA /* Feed.m in Sources */,
+				DB4B53F91A9660390025A3CA /* News+notEsporte.m in Sources */,
 				DB6619101A9634E50061EB52 /* Update.m in Sources */,
 				DB6619061A9618D70061EB52 /* main.m in Sources */,
->>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

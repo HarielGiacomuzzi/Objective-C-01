@@ -41,7 +41,10 @@
 
 -(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {
     
-    if([XMLReadAttr ])
+    if([XMLReadAttr objectForKey:elementName]){
+        
+        
+    }
     
     
     if ( [elementName isEqualToString:@"addresses"]) {
