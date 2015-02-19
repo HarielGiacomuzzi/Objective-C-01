@@ -10,9 +10,9 @@
 
 @implementation NSObject (Compartilhamento)
 
--(BOOL)shareNews:(News *)NewsShared :(NSString *)socialNetworkType
+-(BOOL)shareNews:(News *)news :(NSString *)socialNetworkType
 {
-    NSLog(@"%d/n%d"NewsShared.)
+    NSLog(@"%d/n%d"news )
 }
 
 @end
