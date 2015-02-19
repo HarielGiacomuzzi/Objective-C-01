@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B57F4B511A963E1A00327577 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = B57F4B501A963E1A00327577 /* News.m */; };
 		DB6619061A9618D70061EB52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6619051A9618D70061EB52 /* main.m */; };
 		F22E59461A963F860038E823 /* News+notEsporte.m in Sources */ = {isa = PBXBuildFile; fileRef = F22E59451A963F860038E823 /* News+notEsporte.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B57F4B4F1A96343900327577 /* News.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		B57F4B501A963E1A00327577 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		DB6619021A9618D70061EB52 /* ObjC-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjC-01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6619051A9618D70061EB52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB66190C1A9619A20061EB52 /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
@@ -64,11 +67,16 @@
 			isa = PBXGroup;
 			children = (
 				DB6619051A9618D70061EB52 /* main.m */,
+				B57F4B4F1A96343900327577 /* News.h */,
 				DB66190C1A9619A20061EB52 /* Feed.h */,
 				DB66190D1A961BD00061EB52 /* Update.h */,
 				DB66190E1A961C9F0061EB52 /* Menu.h */,
+<<<<<<< HEAD
 				F22E59441A963F860038E823 /* News+notEsporte.h */,
 				F22E59451A963F860038E823 /* News+notEsporte.m */,
+=======
+				B57F4B501A963E1A00327577 /* News.m */,
+>>>>>>> 9e310ee7f7a28662620f514bdb3c3a4e570c345f
 			);
 			path = "ObjC-01";
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57F4B511A963E1A00327577 /* News.m in Sources */,
 				DB6619061A9618D70061EB52 /* main.m in Sources */,
 				F22E59461A963F860038E823 /* News+notEsporte.m in Sources */,
 			);
